@@ -1,0 +1,51 @@
+
+/* Baggrundsbillede */
+.img{
+    width:100%;
+}
+
+.one{
+    display: none;
+}
+
+.two{
+    display:block;
+}
+
+.btn-primary{
+    background-color: #EF6E6D;
+    border: #C2575A 2px;
+}
+
+/* Kort */
+.card{
+    margin: 30px 0px;
+}
+
+.footer{
+    background-color: #ddd;
+    padding: 20px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+
+}
+
+.bi{
+    padding: 20px;
+    font-size: 20px;
+}
+
+@media screen and (min-width:1200px) {
+    
+    /* Baggrundsbillede */
+    .one{
+        display: block;
+    }
+
+    .two{
+        display: none;
+    }
+
+}
+
