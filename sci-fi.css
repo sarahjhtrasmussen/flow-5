@@ -1,0 +1,66 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #2F4858;
+    color:white;
+}
+
+.info{
+    padding: 20px;
+}
+
+.popular-movies{
+    margin:15px;
+}
+
+.card{
+    margin:5px 0px;
+    padding: 15px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #343a40;
+    padding:10px;
+    padding-top: 20px;
+}
+
+.one{
+    display: none;
+}
+
+.two{
+    display: block;
+}
+
+
+@media screen and (min-width:992px) {
+    .two{
+        display: none;
+    }
+
+    .one{
+        display: block;
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    .one{
+        display: flex;
+    }
+
+    .one p{
+        padding: 20px 40px 20px 20px;
+    }
+
+    .one h1{
+        padding: 20px;
+    }
+
+}
